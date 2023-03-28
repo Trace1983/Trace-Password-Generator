@@ -22,4 +22,4 @@ Clone this repository and open the HTML file to begin using the Password Generat
 ## Contributing
 Trace Linton
 
-<img src="Screenshot (20).png">
+
