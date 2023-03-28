@@ -36,4 +36,36 @@ function generatePassword() {
   }
 
   // Variables for all possible characters
-  var specialChars = "~!@#$%^&*()_+-={} [] 
+  var specialChars = "~!@#$%^&*()_+-={} []";
+
+  
+  var numericChars = "1234567890";
+  var lowerCaseChars = "abcdefghijklmnopqrstuvwxyz";
+  var upperCaseChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  var pwCharSet = "";
+  var pwString = "";
+
+  // Adds characters to the character set based on user choices
+  if (special === true) {
+    pwCharSet += specialChars;
+  }
+
+  if (numeric === true) {
+    pwCharSet += numericChars;
+  }
+
+  if (lowerCase === true) {
+    pwCharSet += lowerCaseChars;
+  }
+
+  if (upperCase === true) {
+    pwCharSet += upperCaseChars;
+  }
+
+  // Generates password string
+  for (var i = 0; i < pwLength; i++) {
+    pwString += pwCharSet.charAt(Math.floor(Math.random() * pwCharSet.length));
+  }
+
+  return pwString;
+}
