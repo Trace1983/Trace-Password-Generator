@@ -22,5 +22,3 @@ Clone this repository and open the HTML file to begin using the Password Generat
 ## Contributing
 Trace Linton
 
-https://github.com/Trace1983/Trace-Password-Generator/blob/main/Screenshot%20(19).png
-
