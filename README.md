@@ -22,4 +22,4 @@ Clone this repository and open the HTML file to begin using the Password Generat
 ## Contributing
 Trace Linton
 
-
+![screenshot22](https://user-images.githubusercontent.com/117109227/228371653-360b8be9-0ae8-4fe5-afbd-13fce0d9f066.png)
